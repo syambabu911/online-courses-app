@@ -1,0 +1,65 @@
+/* rating.css */
+.rating {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .rating h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .stars span {
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.2s;
+    font-size: 30px;
+  }
+  
+  .stars span.filled {
+    color: #ff0;
+  }
+  
+  .rating p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .rating form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rating textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .rating button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .rating button:hover {
+    background-color: #0056b3;
+  }
+  

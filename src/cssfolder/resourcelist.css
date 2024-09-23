@@ -1,0 +1,56 @@
+.resource-list #downloadbutton {
+  float: right;
+  margin-top: 60px;
+  background-color: rgb(243, 249, 177);
+  margin-right: 28px;
+}
+
+.resource-list #downloadbutton:hover {
+  background-color: rgb(6, 150, 85);
+  color: whitesmoke;
+}
+
+.resource-listcontainer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgb(250, 247, 216);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.resource-list video {
+  border: 2px solid lightgray;
+  margin-left: 140px;
+  background-color: black;
+}
+
+.resource img {
+  width: 200px;
+  height: 170px;
+  border-radius: 12px;
+  box-shadow: 10px 12px 8px lightslategrey;
+}
+
+.resource {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.resource img.overlay {
+  position: absolute;
+  top: 16%;
+  left: 39.7%;
+  width: 300px; /* Adjust the size as needed */
+  height: 200px;
+  z-index: 1; /* Ensures the image is above the video */
+}
+
+.resource video {
+  border-radius: 12px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  z-index: 0; /* Ensures the video is below the image */
+}

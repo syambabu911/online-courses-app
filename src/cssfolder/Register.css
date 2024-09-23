@@ -1,0 +1,22 @@
+/* Register.css */
+
+.register{
+  color: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formregister{
+  background:linear-gradient(90deg,rgb(226, 115, 133),rgb(234, 137, 102),rgb(240, 89, 51));
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(135, 138, 124);
+  height: auto;
+  position: sticky;
+}
+.formregister h1{
+  color:rgb(247, 242, 243)
+}
+#butt{
+  display:flex;
+}

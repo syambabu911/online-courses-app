@@ -1,0 +1,122 @@
+
+
+.home-container {
+    position: absolute;
+    width:100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(179, 177, 177, 0.1);
+    height: auto; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .header a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.title{
+  display: flex;
+  float: left;
+}
+#image{
+  display: flex;
+  margin-left:82%;
+}
+  .youtube-channel {
+    display: flex;
+    margin-top: 20px;
+    float: left;
+  }
+  .youtube-channel img{
+    border-radius: 12px; 
+    border: 3px solid lightgrey;
+    width: 350px;
+    height:300px;
+    margin-left: 200px;
+  }
+  #jobalertimage{
+    margin-right:400px;
+  }
+  .youtube-channel img:hover,  #jobalertimage:hover,.ourcourses img:hover{
+    animation: bounce 2s infinite;
+  }
+.ourcourses img{
+  margin: 70px;
+  display: grid;
+  float: left;
+  width: 350px;
+  height: 320px;
+  border-radius: 12px;
+  border: 2px solid rgb(206, 204, 204);
+  background-color: rgb(252, 232, 207);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-50px);
+  }
+  60% {
+      transform: translateY(-75px);
+  }
+}
+.ourcourses{
+  width: 100%;
+  height: auto;
+  padding: 50px;
+} 
+.ourcourses p{
+  color: black;
+}
+  #footer a{
+    justify-content: space-around;
+    padding: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  
+
+  }
+  #footer p{
+    color: white;
+  }
+  .sec{
+    margin-top: 420px;
+    background-color:rgb(108, 84, 91);
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    font-size: 20px;
+  
+  }
+  .header a:hover,#footer a{
+    cursor: pointer;
+
+  }
+  .carousel-inner img{
+    height: 700px;
+    border-radius: 25px;
+    border: 1px solid white;
+    
+  }
+  #carouselExampleInterval{
+    display: flex;
+    width: 70%;
+    height: 50%;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+
+  }
+  
+  .previous{
+    display: flex;
+    font-size: 25px;
+    color:rgb(57, 15, 246);
+  }

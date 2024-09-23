@@ -1,0 +1,41 @@
+/* styles.css */
+.message {
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.success {
+  background-color: #4caf50; /* Green */
+}
+
+.failure {
+  background-color: #f44336; /* Red */
+}
+ 
+div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.loading{
+  font-size: 1.5em;
+  color: #007bff; /* Blue */
+}

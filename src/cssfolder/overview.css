@@ -1,0 +1,61 @@
+
+  
+  .content { 
+    width: 100%;
+    border: 1px solid #e8e6e6;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    background-color: aliceblue;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+  .python {
+    padding: 10px;
+    background-color: #f0e9e1;
+    border-radius: 12px;
+  }
+  .python img{
+    width: 250px;
+    height: auto;
+    border-radius: 90%;
+  }
+  .python p{
+    color: #0e0e0e;
+  }
+  .details{
+    padding: 10px;
+  }
+  .details p{
+    color: white;
+  }
+  
+  .buy-now {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+   .buy-now button {
+    background-color: #e41952;
+    color: rgb(250, 244, 245);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  headers button{
+    background-color: brown;
+    color: aliceblue;
+  }
+  .buy-now p{
+    color: rgb(52, 23, 215);
+  }
+  .content button{
+    width: 150px;
+    height: 50px;
+     padding-bottom: 60px;
+  }

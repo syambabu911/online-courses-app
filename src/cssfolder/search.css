@@ -1,0 +1,30 @@
+.searchform{
+  display: grid;
+  justify-content: center;
+  width:auto;
+  height:auto;
+  background-color: rgb(232, 221, 166);
+  border-radius: 12px;
+}
+.searchform input{
+  display: flex;
+  width: 700px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+  
+}
+.searchform button{
+  display: flex;
+  width: 130px;
+  height: 50px;
+
+
+}
+#back{
+  background-color: rgb(13, 13, 13);
+  border-radius: 40px;
+  width: 100px;
+  height: 50px;
+  color: white;
+}

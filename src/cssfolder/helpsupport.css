@@ -1,0 +1,57 @@
+/* help-support.css */
+.help-support {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.help-support h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.help-support form {
+  display: flex;
+  flex-direction: column;
+}
+
+.help-support label {
+  margin-bottom: 8px;
+  color: #555555;
+  font-weight: 600;
+}
+
+.help-support input[type="text"],
+.help-support input[type="email"],
+.help-support input[type="tel"],
+.help-support textarea {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.help-support textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.help-support button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.help-support button:hover {
+  background-color: #0056b3;
+}

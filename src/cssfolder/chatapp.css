@@ -1,0 +1,129 @@
+.chat-app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(70, 210, 110);
+  }
+  .chat-app  #backbutton{
+    width: 100px;
+    height: 50px;
+    padding-bottom: 60px;
+  }
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: rgb(238, 238, 246);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .chat-header h2{
+    color: rgb(146, 5, 113);
+    font-size: 50px;
+  }
+  
+  .chat-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    flex-direction: column;
+
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: auto;
+  }
+  
+  .message p {
+    margin: 0;
+  }
+  
+  .chat-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chat-footer input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .chat-footer button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .chat-footer button:last-child {
+    margin-right: 0;
+  }
+  
+  .chat-footer input[type="file"] {
+    display: none;
+  }
+  
+  .chat-footer input[type="file"] + button {
+    background-color: #2196f3;
+  }
+  
+  .chat-footer button i {
+    font-size: 16px;
+  }
+/* Style for the microphone button */
+#mic {
+  background-color: #55aee6;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+/* Add a pulsating effect when the button is active */
+#mic.active {
+  animation: pulse 1s infinite;
+}
+
+/* Pulsating keyframes animation */
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(255, 77, 77, 0.7);
+  }
+  70% {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px 20px rgba(255, 77, 77, 0);
+  }
+  100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(255, 77, 77, 0);
+  }
+}

@@ -1,0 +1,54 @@
+.courses-container {
+    width:100%;
+    text-align: center;
+    background: linear-gradient(85deg,pink,orange,skyblue);
+    border-radius: 12px;
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  .courses-container h1{
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(192, 23, 23);
+    border-radius: 5px;
+  }
+  #backbutton{
+    margin-right: 970px;
+    margin-top:30px;
+    font-size: 35px;
+    background-color: rgb(93, 35, 229);
+    color: white;
+    border-radius: 40px;
+  }
+  .courses-list {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    height: auto;
+  }
+  
+  .course {
+    border: 1px solid rgb(244, 240, 240);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(235, 233, 231);
+  }
+  .course img{
+    width:23%;
+    height: 25%;
+    border-radius: 50%;
+    padding-top: 30px;
+  }
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .course #title{
+    background-color: rgb(8, 8, 8);
+    font-size: 50px;
+    color: white;
+  }

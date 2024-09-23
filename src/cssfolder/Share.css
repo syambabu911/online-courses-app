@@ -1,0 +1,29 @@
+.share-container {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    width: 40%;
+  }
+  
+  .share-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .share-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .share-option {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .share-option img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  

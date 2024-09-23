@@ -1,0 +1,28 @@
+.qr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 241, 238);
+    width:100%;
+    height:auto;
+    padding-bottom: 40px;
+    border-radius: 12px;
+  }
+  
+  .scan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 234, 231);
+    width: 350px;
+    height:auto;
+    padding: 20px;
+    border-radius: 12px;
+
+  }
+  .scan img{
+    width:200px;
+    height: 230px;
+
+  }

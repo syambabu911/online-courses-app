@@ -1,0 +1,116 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    /* background-image: url('https://defimedia.info/sites/default/files/styles/node_content_picture_no_watermark/public/310818-online-courses.jpg?itok=tEXrU6Ui'); */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    z-index: -1; /* Place the pseudo-element behind the content */
+    filter: blur(0);
+    transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
+
+body:hover::before {
+    filter: blur(5px); /* Adjust the blur value as needed */
+}
+
+  .login h1{
+    color: rgb(249, 239, 233);
+    background-image: url('https://img.freepik.com/premium-photo/colorful-gradient-noise-colorful-abstract-colors_743855-7886.jpg');
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-family: fantasy;
+  }
+  form p{
+    color: rgb(235, 36, 36);
+  } 
+  /* Login screen styles */ 
+  .login{
+    color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login form{
+    border-radius: 20px;
+    background:rgb(236, 223, 223);
+    color: rgb(17, 17, 17);
+    box-shadow: -4px -5px 10px rgb(39, 39, 39);
+  }
+  
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="email"],select{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="tel"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"],
+  button[type="button"] {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:  #191919;
+    color: #f0ebeb;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover{
+    background-color:rgb(52, 234, 158);
+
+
+  }
+  
+  button[type="submit"]:active,
+  button[type="button"]:active {
+    background-color:orangered;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
